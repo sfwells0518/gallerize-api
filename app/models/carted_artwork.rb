@@ -1,0 +1,2 @@
+class CartedArtwork < ApplicationRecord
+end
