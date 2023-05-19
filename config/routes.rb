@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # Artworks routes:
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get "/artworks" => "artworks#index"
+
+  # User routes:
+
+  # Session routes:
+
+
 end
